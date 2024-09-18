@@ -15,4 +15,6 @@ git status    -> arroja el estado del repositorio
 
 # Guardar una fotografia del fichero
 
-1. Primera fotografia del fichero-> git add name.py
+1. Primera fotografia del fichero   -> git add name.py
+mientras que para añadir todos los ficheros pendientes se usa-> git add . 
+2. Segunda fotografia del fichero   -> git commit -m "mensaje" 
