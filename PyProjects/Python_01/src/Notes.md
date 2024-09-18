@@ -18,3 +18,9 @@ git status    -> arroja el estado del repositorio
 1. Primera fotografia del fichero   -> git add name.py
 mientras que para añadir todos los ficheros pendientes se usa-> git add . 
 2. Segunda fotografia del fichero   -> git commit -m "mensaje" 
+3. Tercera fotografia del fichero   -> git log
+este ultimo muestra el commit
+
+# No realizar los cambios
+
+git checkout        -> se situa en un punto en concreto de una fotografia
