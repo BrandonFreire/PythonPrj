@@ -64,4 +64,7 @@ si tampoco funciona se debe usar *New-Item .gitignore -ItemType File*
 
 Son puntos importantes donde en alguno de estos se desea guardar la informacion. Siendo las versiones en las aplicaciones, por ejemplo hasta cierto commit se usan todos los anteriores para crear alguna version
 
-*git tag NAME*
+*git tag NAME*              -> crea la primera version
+
+*git tag*                   -> muestra todos los tag creados
+*git checkout tags/name*    -> se posiciona en un tag
