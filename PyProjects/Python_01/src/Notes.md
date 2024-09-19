@@ -45,3 +45,7 @@ se suele usar *touch* pero sino funciona, se debe usar *echo*
 si tampoco funciona se debe usar *New-Item .gitignore -ItemType File*
 
 - para agregar un archivo a gitignore unicamente se debe ingresar su nombre con el .tipoDeArchivo
+
+# Buscar los cambios que se han hecho
+
+*git diff*       -> muestra los cambios exactos que se han hecho, esto permite ver que se ha cambiado sin haber realizado una fotografia
