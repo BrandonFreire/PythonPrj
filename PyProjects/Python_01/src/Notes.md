@@ -49,3 +49,19 @@ si tampoco funciona se debe usar *New-Item .gitignore -ItemType File*
 # Buscar los cambios que se han hecho
 
 *git diff*       -> muestra los cambios exactos que se han hecho, esto permite ver que se ha cambiado sin haber realizado una fotografia
+
+# Otras formas de moverse
+
+*git checkout HEAD* -> indica donde es la nueva cabeza del proyecto
+
+# Descartar cambios
+
+*git reset --hard +ID_del_commit*            -> se posiciona en un ID de alguno de los commits realizados, pero "elimina" los posteriores a este. Si se quiere recuperar lo que se "elimino" mediante **git reflog** se puede conocer el ID del ultimo commit realizado y con **git reset** mas el ID se puede regresar al ultimo commit
+
+- para ver todos los movimientos -> *git reflog*
+
+# TAG
+
+Son puntos importantes donde en alguno de estos se desea guardar la informacion. Siendo las versiones en las aplicaciones, por ejemplo hasta cierto commit se usan todos los anteriores para crear alguna version
+
+*git tag NAME*
