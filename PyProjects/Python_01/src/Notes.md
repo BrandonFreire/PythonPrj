@@ -68,3 +68,4 @@ Son puntos importantes donde en alguno de estos se desea guardar la informacion.
 
 *git tag*                   -> muestra todos los tag creados
 *git checkout tags/name*    -> se posiciona en un tag
+*git checkout main*         -> se vuelve al punto de inicio

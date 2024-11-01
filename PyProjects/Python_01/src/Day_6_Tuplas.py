@@ -2,7 +2,7 @@
 ## definicion 
 first_tupla = tuple() # definicion por el nombre reservado 
 second_tupla = () # definicion por los parentesis
-## una tupla es un conjunto de valores, no es igual a una lista, sino se trabaja con valores inmutables. Es decir, los valores no se pueden superponer sobre los definidos, se vuelven constantes.
+## una tupla es un conjunto de valores, no es igual a una lista, sino, se trabaja con valores inmutables. Es decir, los valores no se pueden superponer sobre los definidos, se vuelven constantes.
 ## ademas, se tiene que los elementos se insertan ordenadamente y permite repetidos
 first_tupla = (35, 1.66, "Ismael", "Freire")
 print(first_tupla)

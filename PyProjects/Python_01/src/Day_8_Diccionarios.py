@@ -27,7 +27,7 @@ print("Nombre" in second_dict) # devuelve True porque la clave esta en el diccio
 print("Ismael" in second_dict) # devuelve False porque no es una clave 
 
 # imprimir ciertos valores
-print(second_dict.items()) # items devuelve un listado con cada item 
+print(second_dict.items()) # items devuelve un listado con cada item, devuelve una lista de tuplas
 print(second_dict.keys()) # keys devueve las claves
 print(second_dict.values()) # values devuelve los valores de las claves
 keys = dict.fromkeys({"Nombre", "Apellido", "Piso"}) # crea un diccionario vacio con ciertas claves
