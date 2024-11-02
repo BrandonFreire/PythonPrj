@@ -17,7 +17,7 @@ d = {
 
 Algunas funciones de los diccionarios
 
-d.keys() # devuelve una lista del objeto de tipo diccionario 
+d.keys() # devuelve una lista del objeto de tipo diccionario
 
 d.values() # devuelve una lista del objeto de tipo diccionario
 
