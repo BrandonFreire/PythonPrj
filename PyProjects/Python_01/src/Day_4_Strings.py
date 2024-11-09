@@ -57,7 +57,7 @@ print(language_slice)
 
 # Reverse
 print("---------------")
-reversed = language[::-1]
+reversed = language[::-1] # reversa de una palabra
 print(reversed)
 
 # Funciones
